@@ -1,6 +1,6 @@
 public class VicePresident extends Manager {
 
-    // akses super constructor
+    // access super constructor
     VicePresident(String name){
         super(name);
     }

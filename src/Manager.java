@@ -1,8 +1,16 @@
 public class Manager {
     // field name
     String name;
+    String company;
 
     Manager(String name){
+        this.name = name;
+    }
+
+    // overloading Constructor
+    Manager(String name, String company){
+        this.name = name;
+        this.company = company;
     }
 
     void sayHello(String name){
