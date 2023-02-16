@@ -6,6 +6,7 @@ public class ShapeApp {
 
         var rectangle = new Rectangle();
         System.out.println(rectangle.getCorner());
+        // print super keyword
         System.out.println(rectangle.getParentCorner());
     }
 }
