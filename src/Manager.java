@@ -3,6 +3,7 @@ public class Manager {
     String name;
     String company;
 
+    // Default Constructor
     Manager(String name){
         this.name = name;
     }
