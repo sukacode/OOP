@@ -7,6 +7,6 @@ public class Employee {
     }
 
     void sayHello(String name){
-        System.out.println("hi " + name + ", my name is employee " + this.name);
+        System.out.println("hi " + name + ", my name is Employee " + this.name);
     }
 }
