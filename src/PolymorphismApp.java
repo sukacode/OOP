@@ -17,6 +17,7 @@ public class PolymorphismApp {
     }
 
     static void sayHello(Employee employee){
+        // Type check & cast
         if (employee instanceof VicePresident){
             VicePresident vicePresident = (VicePresident) employee;
             System.out.println("Hello VP " + vicePresident.name);
