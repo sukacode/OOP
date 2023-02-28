@@ -14,7 +14,7 @@ public class PolymorphismApp {
         sayHello(new Employee("gg"));
         sayHello(new VicePresident("hh"));
         sayHello(new Manager("ii"));
-    }z
+    }
 
     static void sayHello(Employee employee){
         if (employee instanceof VicePresident){

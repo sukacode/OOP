@@ -1,5 +1,5 @@
 public class Manager extends Employee {
-    // field name
+
     String company;
 
     // Default Constructor
